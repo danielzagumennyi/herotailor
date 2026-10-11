@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hero Tailor — cozy sewing game for Android</title>
+<meta name="description" content="Hero Tailor is a cozy sewing game for Android: repair burnt superhero suits or sew new ones from scratch in your tailor shop. Coming to Google Play.">
+<meta property="og:title" content="Hero Tailor — cozy sewing game">
+<meta property="og:description" content="Repair superhero suits or sew new ones from scratch in your cozy tailor shop.">
+<meta property="og:image" content="img/hero_banner.jpg">
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;800;900&display=swap">
+<style>
+  :root { --navy:#0b1033; --navy2:#121834; --gold:#ffd23f; --chalk:#fff6e0; --muted:#aab2d6; --line:#27306a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--navy); color:var(--chalk); font:17px/1.6 Rubik, -apple-system, "Segoe UI", Arial, sans-serif;
+    background-image:linear-gradient(rgba(255,246,224,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,246,224,.05) 1px,transparent 1px);
+    background-size:36px 36px; padding:0 16px 64px; }
+  .wrap { max-width:1040px; margin:0 auto; }
+  .hero { margin:24px 0 0; border-radius:20px; overflow:hidden; border:3px solid var(--chalk); box-shadow:0 20px 50px rgba(0,0,0,.45); }
+  .hero img { display:block; width:100%; height:auto; }
+  h1 { font-weight:900; font-size:clamp(30px,6vw,52px); line-height:1.05; margin:32px 0 10px; }
+  h1 span { color:var(--gold); }
+  h2 { font-weight:800; font-size:26px; margin:48px 0 12px; }
+  p { max-width:66ch; }
+  .lead { font-size:20px; color:var(--chalk); }
+  .cta { display:flex; flex-wrap:wrap; gap:12px; margin:22px 0 8px; }
+  .btn { display:inline-block; padding:14px 26px; border-radius:40px; font-weight:800; text-decoration:none; font-size:18px; }
+  .btn.gold { background:var(--gold); color:var(--navy); box-shadow:0 8px 0 #b98c00; }
+  .btn.ghost { border:2px solid var(--chalk); color:var(--chalk); }
+  .small { font-size:14px; color:var(--muted); }
+  .shots { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
+  @media (max-width:720px) { .shots { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+  .shots img { width:100%; border-radius:12px; border:2px dashed var(--gold); display:block; }
+  ul.feat { padding-left:20px; } ul.feat li { margin:6px 0; }
+  .card { background:var(--navy2); border:1px solid var(--line); border-radius:14px; padding:18px 22px; margin:14px 0; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  td { padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  td:first-child { color:var(--muted); width:34%; }
+  a { color:var(--gold); }
+  footer { margin-top:56px; padding-top:16px; border-top:1px solid var(--line); font-size:14px; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero"><img src="img/hero_banner.jpg" alt="Blaze, a fire superhero in her red suit, in a cozy loft atelier next to ice, lightning and mage suits"></div>
+
+  <h1>Superheroes save the city.<br><span>Who saves their suits?</span></h1>
+  <p class="lead">Hero Tailor is a cozy sewing game for Android. Run a small tailor shop for superheroes: repair burnt and torn suits or sew brand-new ones from scratch. Cut the pattern, stitch the seams on your sewing machine and fit the suit on a mannequin.</p>
+
+  <div class="cta">
+    <!-- Works once the Google Play listing is public (pre-registration). UTM marks visits from this site. -->
+    <a class="btn gold" href="https://play.google.com/store/apps/details?id=com.unnoisedgames.herotailor&amp;utm_source=website&amp;utm_campaign=landing">Pre-register on Google Play</a>
+    <!-- TODO: replace with your Google Form / newsletter link for email signups -->
+    <a class="btn ghost" href="mailto:unnoised.games@gmail.com?subject=Hero%20Tailor%20launch%20news">Get launch news by email</a>
+  </div>
+  <p class="small">Free to download on Android. No forced ads.</p>
+
+  <h2>Repair or create</h2>
+  <div class="shots">
+    <img src="img/shot_1.jpg" alt="Tailor of superheroes: the atelier and Blaze in a new suit">
+    <img src="img/shot_2.jpg" alt="A burnt suit before and after repair">
+    <img src="img/shot_3.jpg" alt="Cutting the pattern and sewing a new suit from scratch">
+    <img src="img/shot_8.jpg" alt="The cozy loft tailor shop above the city">
+  </div>
+  <ul class="feat">
+    <li>Repair burnt, torn and scorched superhero suits, or sew new ones from scratch</li>
+    <li>Cut patterns with scissors and guide the sewing machine along the chalk line</li>
+    <li>Many heroes, many suits and lots of ways to customize them</li>
+    <li>A cozy loft atelier above the city, anime-style heroes and detailed 3D suits</li>
+    <li>And one night, a hooded client: “I need a suit. Tonight.”</li>
+  </ul>
+
+  <h2 id="press">Press kit</h2>
+  <div class="card">
+    <table>
+      <tr><td>Developer</td><td>Unnoised Games (solo indie studio)</td></tr>
+      <tr><td>Platform</td><td>Android (Google Play)</td></tr>
+      <tr><td>Status</td><td>Pre-registration on Google Play</td></tr>
+      <tr><td>Genre</td><td>Cozy sewing &amp; repair simulation</td></tr>
+      <tr><td>Price</td><td>Free to download</td></tr>
+      <tr><td>Languages (store)</td><td>English, Russian, Spanish, Portuguese (Brazil), German, French</td></tr>
+      <tr><td>Press contact</td><td><a href="mailto:unnoised.games@gmail.com">unnoised.games@gmail.com</a></td></tr>
+    </table>
+    <p><strong>One line:</strong> A cozy sewing game where you repair superhero suits or sew new ones from scratch in a loft tailor shop.</p>
+    <p><strong>Paragraph:</strong> Heroes save the city, but their suits come back burnt and torn. In Hero Tailor you run a small atelier for superheroes: repair damaged suits or sew new ones from scratch — cut the pattern, sew the seams and fit the suit on a mannequin — for a whole team of heroes. A relaxing, tactile craft game for phones, with a twist: not every client is a hero.</p>
+    <p><a class="btn ghost" href="presskit/HeroTailor_presskit.zip">Download screenshots, banner &amp; icon (ZIP)</a></p>
+    <!-- TODO: add the YouTube trailer link once it is uploaded -->
+  </div>
+
+  <footer>
+    © 2026 Unnoised Games · <a href="privacy.html">Privacy policy</a> · <a href="mailto:unnoised.games@gmail.com">Contact</a><br>
+    Google Play is a trademark of Google LLC.
+  </footer>
+</div>
+</body>
+</html>
